@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.notify {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/img-teste.png");
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  right: 15%;
+}
+
+.status-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dianteiro {
+  padding-bottom: 24px;
+}
+.info-name {
+  height: 100px;
+  padding: 0 4px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  border-radius: 4px;
+  color: #659966;
+}
+.info-name p {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.velocidade {
+  margin: 0 8px;
+  width: 120px;
+  height: 100px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+.velocidade span {
+  font-size: 48px;
+  line-height: 38px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.144);
+}
+.velocidade p {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+}
+.list-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 8px;
+  width: 120px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.plate-box {
+  width: 120px;
+  height: 70px;
+  background-image: url("../assets/img/plate.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.plate-box span {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 6px;
+}
+
+.traseiro .info-name p {
+  color: #d39000;
+}
+
+.danger {
+  background-color: #851400;
+  padding: 3px 8px;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.noProblem {
+  width: 100%;
+  background-color: #002f85;
+  padding: 3px 8px;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.traseiro {
+  padding-bottom: 24px;
+}
